@@ -1,0 +1,52 @@
+/*
+ * LAYOUT FORMATTING
+ */
+aside {
+	float:right;
+	margin-top:50px;
+	margin-left:10px;
+	width:30%;
+	
+}
+
+
+
+article {
+	float:left;
+}
+
+.container {
+	width:100%;
+	display:block;
+	float:center;
+	background-color:#d9d9d9;
+}
+
+
+/*
+ * Table Formatting
+ */
+table { 
+    border: AppWorkspace solid 1px; 
+    font-size: 0.8em; 
+    text-align: center; 
+    border-collapse:collapse; 
+    style: 600px;
+} 
+
+tr.header{
+    font-weight: bold;
+    background-color: #ffffef
+}
+
+td { 
+    border: 1px solid AppWorkspace; 
+    margin: 0; 
+    padding: 3px; 
+} 
+
+/** Autocomplete Box formatting */
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 5px 5px; white-space: nowrap; overflow: hidden; font-size:22px}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #3399FF; }
